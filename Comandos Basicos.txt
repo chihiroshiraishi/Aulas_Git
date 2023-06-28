@@ -1,0 +1,6 @@
+git remote -v       //Visualiza todos os repositorios remotos no github
+git status          //Visualiza a siutação real do repositório e suas necessidades [modified / untracked]
+git add "file.txt"      //Adiciona um arquivo especifico para serem commitados
+git add .       //Adiciona todos os arquivos do repositório para serem commitados
+git commit "file.txt" -m "mensagem"       //Commita um arquivo específico
+git commit -a -m "mensagem"         //Commita todos os arquivos
