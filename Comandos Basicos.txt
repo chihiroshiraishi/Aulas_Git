@@ -9,3 +9,6 @@ git pull        //Comando para puxar a sincronização do reto remoto para o ret
 git clone "url clone"		/*Comando usado para clonar um repo remoto existente, muito utilizado quando iremos assumir um projeto já existente [Este comando puxa a pasta e subarquivos/subpastas]
 								Necessita da URL no botão "Code" do repo, aparecerá a URL para clone */
 git clone "url clone" . 		//Comando usado para clonar um repo remoto existente, muito utilizado quando iremos assumir um projeto já existente [Este comando puxa somente subarquivos/subpastas]
+git rm "arquivo"	//Comando para deletar um arquivo do repo local [precisa do push para deletar do repo remoto]
+git mv "diretorio/arquivo"  "novo diretorio/arquivo" 		//Comando para mover um arquivo de um diretório para outro
+git mv "diretorio/arquivo"  "diretorio/arquivo" 		//Comando para renomear um arquivo, ao contrario do exemplo anterior. Não pode selecionar diretório diferente
