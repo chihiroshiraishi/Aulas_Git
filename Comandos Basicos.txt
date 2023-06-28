@@ -6,3 +6,6 @@ git commit "file.txt" -m "mensagem"       //Commita um arquivo específico
 git commit -a -m "mensagem"         //Commita todos os arquivos
 git push        //Comando para enviar o repo local commitado para o repo remoto
 git pull        //Comando para puxar a sincronização do reto remoto para o reto local
+git clone "url clone"		/*Comando usado para clonar um repo remoto existente, muito utilizado quando iremos assumir um projeto já existente [Este comando puxa a pasta e subarquivos/subpastas]
+								Necessita da URL no botão "Code" do repo, aparecerá a URL para clone */
+git clone "url clone" . 		//Comando usado para clonar um repo remoto existente, muito utilizado quando iremos assumir um projeto já existente [Este comando puxa somente subarquivos/subpastas]
