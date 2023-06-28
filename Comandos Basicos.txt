@@ -4,3 +4,5 @@ git add "file.txt"      //Adiciona um arquivo especifico para serem commitados
 git add .       //Adiciona todos os arquivos do repositório para serem commitados
 git commit "file.txt" -m "mensagem"       //Commita um arquivo específico
 git commit -a -m "mensagem"         //Commita todos os arquivos
+git push        //Comando para enviar o repo local commitado para o repo remoto
+git pull        //Comando para puxar a sincronização do reto remoto para o reto local
