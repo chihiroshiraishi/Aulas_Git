@@ -1,4 +1,0 @@
-Para iniciarmos um repositório no Git sempre começamos com o comando
-Init Git
-
-Para alterar o diretório basta usar o comando linux cd ~
