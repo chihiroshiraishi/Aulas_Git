@@ -8,5 +8,9 @@ git checkout -b "nome"		//Comando para criar nova branch e utiliza-la como atual
 git stash 			//Comando para colocar todas as alterações de status pré commit para alocação temporária, retorna à configuração do commit anterior
 git stash list 		//Comando para exibir todas as stash criadas
 git stash apply "number" 		//Comando para recuperar uma stash da lista
-git stash show -p "number" 		//Comando para apresentar quais foram as alterações realizadas na stash
+git stash show -p "number" 		//Comando para apresentar quais foram as alterações realizadas na stash de forma detalhada a alteração em cada arquivo
+git stash show "number" 		//Comando para apresentar quais foram as alterações realizadas na stash de forma simplificada
+git stash clear 			//Comando para limpar a lista de stash no branch
+git stash drop "number" 		//Comando para excluir uma stash especifica da lista no branch
+git tag -a "nome_tag" -m "mensagem" 		//Comando para criar uma tag, sendo tag uma espécie de checkpoint da branch
 
