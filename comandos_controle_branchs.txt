@@ -1,0 +1,9 @@
+git branch 			//Comando para visualizar o branch atual
+git branch "nome"		//Comando para criar uma branch nova
+git branch -d "nome" 		//Comando usado para deletar um branch
+git branch --delete "nome"  		//Comando usado para deletar um branch
+git checkout "nome" 		//Comando para trocar a branch atual [verificar o status pois serão descartadas as alterações pendentes]
+git checkout -b "nome"		//Comando para criar nova branch e utiliza-la como atual [mesma situação do sem flag]
+						### Dica: Sempre criar branch nova a partir da MAIN, e só sobre excessão de uma branch secundária ###
+
+
