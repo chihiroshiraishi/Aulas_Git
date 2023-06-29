@@ -5,5 +5,8 @@ git branch --delete "nome"  		//Comando usado para deletar um branch
 git checkout "nome" 		//Comando para trocar a branch atual [verificar o status pois serão descartadas as alterações pendentes]
 git checkout -b "nome"		//Comando para criar nova branch e utiliza-la como atual [mesma situação do sem flag]
 						### Dica: Sempre criar branch nova a partir da MAIN, e só sobre excessão de uma branch secundária ###
-
+git stash 			//Comando para colocar todas as alterações de status pré commit para alocação temporária, retorna à configuração do commit anterior
+git stash list 		//Comando para exibir todas as stash criadas
+git stash apply "number" 		//Comando para recuperar uma stash da lista
+git stash show -p "number" 		//Comando para apresentar quais foram as alterações realizadas na stash
 
