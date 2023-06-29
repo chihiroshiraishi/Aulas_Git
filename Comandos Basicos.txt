@@ -12,3 +12,6 @@ git clone "url clone" . 		//Comando usado para clonar um repo remoto existente, 
 git rm "arquivo"	//Comando para deletar um arquivo do repo local [precisa do push para deletar do repo remoto]
 git mv "diretorio/arquivo"  "novo diretorio/arquivo" 		//Comando para mover um arquivo de um diretório para outro
 git mv "diretorio/arquivo"  "diretorio/arquivo" 		//Comando para renomear um arquivo, ao contrario do exemplo anterior. Não pode selecionar diretório diferente
+git checkout "diretorio/arquivo"		//Volta todas configurações salvas anteriormente no repo remoto para o repo local [reset do arquivo]
+.gitignore 			//crie um arquivo com este nome e nele coloque o nome e extensão de todos arquivos ou as pastas que devem ser ignorados no github
+git reset --hard "branch" 		//Comando para reset de todas configurações commitadas ou não antes do push.
