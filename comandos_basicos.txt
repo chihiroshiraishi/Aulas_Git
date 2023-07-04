@@ -13,8 +13,5 @@ git rm "arquivo"	//Comando para deletar um arquivo do repo local [precisa do pus
 git mv "diretorio/arquivo"  "novo diretorio/arquivo" 		//Comando para mover um arquivo de um diretório para outro
 git mv "diretorio/arquivo"  "diretorio/arquivo" 		//Comando para renomear um arquivo, ao contrario do exemplo anterior. Não pode selecionar diretório diferente
 git checkout "diretorio/arquivo"		//Volta todas configurações salvas anteriormente no repo remoto para o repo local [reset do arquivo]
-git restore "*.js"		//Comando para restaurar todos os arquivos js (exemplo) do repo local antes do commit
-git restore . 			//Comando para restaurar todos os arquivos do repo local antes do commit
-git restore "nome_arquivo"	//Comando para restaurar um arquivo especifico do repo local antes do commit
 .gitignore 			//crie um arquivo com este nome e nele coloque o nome e extensão de todos arquivos ou as pastas que devem ser ignorados no github
 git reset --hard "branch" 		//Comando para reset de todas configurações commitadas ou não antes do push.
